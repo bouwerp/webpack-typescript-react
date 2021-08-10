@@ -1,6 +1,6 @@
 # Webpack 5 boilerplate
 
-![](https://habrastorage.org/webt/q-/lv/b0/q-lvb0d4li7cpi-hsctistlzooi.png)
+(Forked from: github.com/glook/webpack-typescript-react)
 
 [Webpack 5](https://webpack.js.org/) boilerplate with support of most common loaders and modules:
 
