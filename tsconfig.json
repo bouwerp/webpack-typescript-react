@@ -1,12 +1,14 @@
 {
     "compilerOptions": {
         "outDir": "./dist",
-        "module": "esnext",
-        "target": "es6",
-        "lib": ["es6", "dom"],
+        "module": "es2020",
+        "lib": [
+            "dom",
+            "es2020"
+        ],
         "sourceMap": true,
         "allowJs": true,
-        "jsx": "react",
+        "jsx": "react-jsx",
         "moduleResolution": "node",
         "noImplicitReturns": true,
         "noImplicitThis": true,
@@ -16,6 +18,7 @@
         "rootDir": "./",
         "typeRoots": ["./node_modules/@types", "./src/@types"],
         "paths": {
+            "~/src/*": ["src/*"],
             "@src/*": ["src/*"],
             "@images/*": ["src/images/*"],
             "@styles/*": ["src/styles/*"],
